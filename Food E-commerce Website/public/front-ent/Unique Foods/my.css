@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.nav{
+    position: fixed;
+    height: 3vw;
+    width: 100%;
+    font-family: 'Gill Sans';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    border: 0 solid rgba(0, 0, 1);
+    
+    
+}
+.nav .logo{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f73576;
+}
+.logo img{
+    height: 13%;
+    width: 13%;
+}
+.nav .menu{
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    gap: 40px;
+
+}
+.nav .menu a{
+    color: #0a0a0a;
+}
+.menu h4{
+    transition: 0.5s ease;
+}
+.menu h4:hover{
+    color: #fc04d2;
+    border-bottom: 1px solid #fa0310;
+}
+.nav .nav-icon {
+    
+    display: flex;
+    gap: 30px;
+    
+}
+.nav-icon i{
+    font-size: 120%;
+    color: black;
+    transition: 0.5s ease;
+}
+.nav-icon i:hover{
+    color: #f707f7;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    
+}
+#page1  img{
+    height: 95%;
+    width: auto;
+
+}
+#page1 h1 {
+    font-size: 50px;
+    font-weight: 3000;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    color: #f707f7;
+}
+#page1 h5 {
+    font-size: 18px;
+    font-weight: 200;
+    
+}
+#page1 button {
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 20%;
+    background-color: #f8098c;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 40%;
+    transition: 0.4s ease;
+
+}
+#page1 button:hover{
+    background-color: #0a0a0a;
+    
+}
+#page1 button a{
+    color: white;
+    transition: 0.4s ease;
+}
+#page1 button a:hover{
+    color: #f707f7;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+    
+}
+
+.page2  img{
+    height: 95%;
+    width: auto;
+    
+
+}
+.page2 h1 {
+    font-size: 45px;
+    font-weight: 3000;
+    margin-bottom: 50px;
+    margin-left: 1%;
+}
+.page2 h5 {
+    font-size: 15px;
+    margin-right: 30px;
+    
+}
+.page2 button {
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 20%;
+    background-color: #f50689;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 30%;
+    transition: 0.4s ease;
+
+}
+.page2 button:hover{
+    background-color: #0a0a0a;
+    
+}
+.page2 button a{
+    color: white;
+    transition: 0.4s ease;
+}
+.page2 button a:hover{
+    color: #f707f7;
+}
+header h1{
+    height: 4vw;
+    width: auto;
+    color: #f707f7;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+
+#page3 #img{
+    height: 40vw;
+    width: 80%;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    margin-left: 20px;
+    margin-top: 10%;
+    overflow: hidden;
+
+}
+#page3 #img img{
+    height: 20vw;
+    width: 38vh;
+    margin-left: 3.4%;
+    padding-top: 5%;
+    transition: all ease 1s;
+}
+#page3 #img img:hover{
+    scale: 1.2;
+
+}
+
+#page3  #img h3{
+    text-align: center;
+    font-size: 30px;
+    color: #f809e4;
+    font-weight: 200;
+}
+#page3  #img p{
+    text-align: center;
+    color: #070708;
+}
+#page3   #img #ratting{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+    
+}
+#page3  #img #ratting a i{
+    color: #ffd903;
+}
+#page3  #img #price{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+    color: #eb0b0b;
+
+}
+#page3  #img button{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 4vw;
+    width: 40%;
+    font-size: 20px;
+    background-color: #f80af8;
+    color: white;
+    border-radius: 20px;
+}
+#page3  #img button:hover{
+    background-color: #0a0808;
+    color: #f809e4;
+}
+
+#div h1{
+    height: 4vw;
+    width: auto;
+    color: #f707f7;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    
+    margin-top: 5%;
+}
+
+#page4{
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+#page4  img{
+    height: 20vw;
+    width: 47vh;
+    margin-left: 3.4%;
+    padding-top: 5%;
+    transition: all ease 1s;
+}
+#page4  img:hover{
+    scale: 1.2;
+}
+
+
+#page5{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page5 #img{
+    height: 29vw;
+    width: 20%;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    margin-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transition: all ease 2s;
+
+}
+#page5 #img:hover{
+    background-color: #110e0e;
+    color: white;
+}
+#page5 #img img{
+    height: 20vw;
+    width: 38vh;
+    margin-left: 3.4%;
+    padding-top: 5%;
+    border-radius: 50%;
+    transition: all ease 0.8s;
+    
+
+}
+#page5 #img img:hover{
+    transform: translateY(-20px);
+}
+#page5 #img h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #f707f7;
+}
+
+#page5 #img p{
+    text-align: center;
+}
+#page5 #img p:hover{
+    color:#eb0b0b ;
+}
+#page5 #img #ratting{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+#page5 #img #ratting a{
+    
+    color: #ffd903;
+    font-size: 25px;
+
+}
+
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page6 #order h1{
+    height: 4vw;
+    width: auto;
+    color: #f707f7;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+#page6 #img {
+    display: flex;
+    justify-content: space-between;
+}
+#page6 #img form{
+    height: 42vw;
+    width: 25%;
+    background: linear-gradient(to top, rgba(10, 10, 10, 0.8)50%,rgba(10, 10, 10, 0.8)50%);
+    margin-top: 5%;
+    margin-right: 1%;
+    
+
+}
+#page6 #img form h1{
+    height: 3vw;
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 27.5%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 31px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+
+}
+#page6 #img form #oi{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+#page6 #img form #oi input{
+    color: white;
+    width: 19vw;
+    height: 40px;
+    background: transparent;
+    margin-top: 30px;
+    display: flex;
+    padding: 0 10px;
+    margin-left: 12.5%;
+    border-bottom: 1px solid #f508e9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#page6 #img form .btn{
+    height: 3vw;
+    width: 40%;
+    background-color: #ff05f2;
+    text-align: center;
+    font-size: 30px;
+    top: 20px;
+    left: 32%;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    position:  relative;
+    
+    
+}
+#page6 #img form .btn:hover{
+    background-color: #0c0c0c;
+}
+#page6 #img form a{
+    color: white;
+    transition: 0.4s ease;
+
+}
+#page6 #img form a:hover{
+    color: #f807c4;
+}
+
+#team h1{
+    height: 4vw;
+    width: auto;
+    color: #f707f7;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+#page7{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page7 #img{
+    height: 29vw;
+    width: 20%;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    margin-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transition: all ease 2s;
+
+}
+#page7 #img:hover{
+    
+    color: white;
+}
+#page7 #img img{
+    height: 20vw;
+    width: 38vh;
+    margin-left: 3.4%;
+    padding-top: 5%;
+    border-radius: 50%;
+    transition: all ease 0.8s;
+    
+
+}
+#page7 #img img:hover{
+    transform: translateY(-40px);
+}
+#page7 #img h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #f707f7;
+}
+
+#page7 #img p{
+    text-align: center;
+}
+#page7 #img p:hover{
+    color:#fd0be9 ;
+}
+#page7 #img #ratting{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+#page7 #img #ratting a{
+    
+    color: #ffd903;
+    font-size: 25px;
+
+}
+
+#footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #cfcccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#footer #location h5{
+    margin-top: 1%;
+    font-size: 16px;
+    word-spacing: 5px;
+    
+}
+#footer #cnt h5{
+    margin-top: 1%;
+    font-size: 16px;
+}
+#footer #src h2{
+    margin-bottom: 3%;
+}
+#footer #src h5{
+    margin-top: 1%;
+    font-size: 16px;
+}
+#footer #follow a i{
+    margin-bottom: 40%;
+    margin-top: 8%;
+    font-size: 25px;
+    transition: 0.4s ease;
+}
+#footer #follow a i:hover{
+    color: #f508e9;
+}
+
+
+
+
